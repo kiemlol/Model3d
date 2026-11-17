@@ -1,0 +1,98 @@
+{
+  "asset": "crimson_dragon_v1.glb",
+  "sha256": "983133b206e916ae97d718c5c5c46e80e0391dae1f22f12e640eb56b9ebf82e8",
+  "bytes": 21768668,
+  "triangles": 214004,
+  "meshes": 11,
+  "materials": 20,
+  "bones": 55,
+  "wingBones": 26,
+  "skin": 1,
+  "textures": {
+    "embeddedImages": 4,
+    "size": [
+      2048,
+      2048
+    ],
+    "types": [
+      "basecolor",
+      "normal"
+    ]
+  },
+  "units": "metres",
+  "gltfAxes": {
+    "up": "+Y",
+    "forward": "+Z"
+  },
+  "animations": [
+    {
+      "name": "Idle",
+      "channels": [
+        "Neck.01",
+        "Neck.02",
+        "Head"
+      ],
+      "duration": 4
+    },
+    {
+      "name": "Wing_Display",
+      "channels": [
+        "WingUpper.L",
+        "WingFore.L",
+        "WingPalm.L",
+        "WingDigit1A.L",
+        "WingDigit1B.L",
+        "WingDigit2A.L",
+        "WingDigit2B.L",
+        "WingDigit3A.L",
+        "WingDigit3B.L",
+        "WingDigit4A.L",
+        "WingDigit4B.L",
+        "WingDigit5A.L",
+        "WingDigit5B.L",
+        "WingUpper.R",
+        "WingFore.R",
+        "WingPalm.R",
+        "WingDigit1A.R",
+        "WingDigit1B.R",
+        "WingDigit2A.R",
+        "WingDigit2B.R",
+        "WingDigit3A.R",
+        "WingDigit3B.R",
+        "WingDigit4A.R",
+        "WingDigit4B.R",
+        "WingDigit5A.R",
+        "WingDigit5B.R"
+      ],
+      "duration": 2.4
+    },
+    {
+      "name": "Tail_Sway",
+      "channels": [
+        "Tail.01",
+        "Tail.02",
+        "Tail.03",
+        "Tail.04",
+        "Tail.05",
+        "Tail.06",
+        "Tail.07",
+        "Tail.08"
+      ],
+      "duration": 4
+    },
+    {
+      "name": "Roar",
+      "channels": [
+        "Jaw"
+      ],
+      "duration": 2
+    }
+  ],
+  "validation": {
+    "errors": 0,
+    "warnings": 0,
+    "rig": "passed",
+    "browser": "passed"
+  },
+  "version": "v1"
+}
